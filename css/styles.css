@@ -119,7 +119,7 @@ text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
 }
-.team-list{
+.team-link{
     background-color: #FFFFFF;
 }
 .team-list-title{
@@ -167,6 +167,9 @@ color: #2E2F42;
 /* ====== PORTFOLIO STYLES ===== /*/
 
 /* ====== FOOTER STYLES ===== */
+.page-footer{
+    background-color: #2e2f42;
+}
 .footer-text{
         font-size: 16px;
         font-weight: 400;
