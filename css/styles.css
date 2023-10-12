@@ -14,8 +14,6 @@ body{
     color: #434455;
 }
 
-  
-
 /* ====== COMMON STYLE ====== */
 
 /* ====== HEADER STYLES ===== */
@@ -64,7 +62,11 @@ body{
     font-style: normal;
 }
 /* ====== HEADER STYLES ===== /*/
-/* ==== HERO ==== */
+
+/* ====== HERO ===== */
+.hero{
+    background-color: #2e2f42;
+}
 .main-title{
         font-size: 56px;
         font-weight: 700;
@@ -77,10 +79,17 @@ body{
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.004em;
+        letter-spacing: 0.04em;
+        background-color:#4D5AE5 ;
         color: #FFFFFF;
 }
+.order-service-btn:hover,
+.order-service-btn:focus{
+    color: #404BBF;
+}
+/* ====== HERO ===== /*/
 
+/* ====== FEATURES STYLES ===== */
 .features-title{
         font-size: 20px;
         font-weight: 500;
@@ -95,6 +104,12 @@ body{
         letter-spacing: 0.02em;
             color: #434455;
 }
+/* ====== FEATURES STYLES ===== /*/
+
+/* ====== TEAM STYLES ===== */
+.team{
+    background-color: #F4F4FD;
+}
 .team-title{
 font-size: 36px;
 font-weight: 700;
@@ -103,6 +118,9 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
 color: #2E2F42;
+}
+.team-list{
+    background-color: #FFFFFF;
 }
 .team-list-title{
     font-size: 20px;
@@ -120,6 +138,9 @@ color: #2E2F42;
     text-align: center;
     color: #434455;
 }
+/* ====== TEAM STYLES ===== /*/
+
+/* ====== PORTFOLIO STYLES ===== */
 .portfolio-title{
     font-size: 36px;
         font-weight: 700;
@@ -143,6 +164,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* ====== PORTFOLIO STYLES ===== /*/
+
+/* ====== FOOTER STYLES ===== */
 .footer-text{
         font-size: 16px;
         font-weight: 400;
@@ -150,3 +174,4 @@ color: #2E2F42;
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
+/* ====== FOOTER STYLES ===== /*/
