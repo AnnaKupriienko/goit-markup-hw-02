@@ -44,7 +44,8 @@ body{
 }
 .menu-link:hover,
 .menu-link:focus{
-    color: #404bbf
+    color: #404bbfv;
+
 }
 .contact-list-link{
         font-size: 16px;
@@ -86,6 +87,7 @@ body{
 .order-service-btn:hover,
 .order-service-btn:focus{
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 /* ====== HERO ===== /*/
 
