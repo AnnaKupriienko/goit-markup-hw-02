@@ -10,7 +10,9 @@ button{
 }
 body{
     font-family: 'Roboto', sans-serif;
-    accent-color: #FFFFFF;   
+    color: #434455;
+    background-color:#FFFFFF;
+
 }
 
 /* ====== COMMON STYLE ====== */
@@ -20,19 +22,19 @@ body{
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 700;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:  #2E2F42;
+        color: #4D5AE5;
 }
 .logotype-word{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4D5AE5;
+    color:#2e2f42;
 }
 .menu-link{
         font-size: 16px;
@@ -40,6 +42,10 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2E2F42;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: #404bbf
 }
 .contact-list-link{
         font-size: 16px;
@@ -49,9 +55,12 @@ body{
         letter-spacing: 0.02em;
         color:#434455;
 }
-.contact-list:hover,
-.contact-list:focus{
+.contact-list-link:hover,
+.contact-list-link:focus{
     color: #404BBF;
+}
+.contacts{
+    font-style: normal;
 }
 /* ====== HEADER STYLES ===== /*/
 /* ==== HERO ==== */
